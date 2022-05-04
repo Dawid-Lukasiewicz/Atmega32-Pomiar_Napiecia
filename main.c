@@ -75,7 +75,7 @@ void PORTA_MUX()
 	tbi(ADMUX, MUX0);
 }
 
-// Ustawienie Portu C3 i C2 na wyjœcia
+// Ustawienie Portu C3 i C2 na wyjÅ›cia
 void LED_init()
 {
 	sbi(DDRC, PC3);
@@ -179,6 +179,3 @@ int main()
 		}
 	}
 }
-
-//Co to jest komparator?
-//Komparator jest uk³adem porównuj¹cym. Komparatory dzielimy na cyfrowe, które porównuj¹ dwie liczby binarne i analogowe, które porównuj¹ dwa poziomy napiêæ lub pr¹dów..
